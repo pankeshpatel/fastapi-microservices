@@ -1,4 +1,6 @@
-![App Architecture](img/arch.png)
+<p align="center">
+  <img src="img/arch.png" width="350" title="app architecture">
+</p>
 
 ```
 // To create a virtual environment on mac
