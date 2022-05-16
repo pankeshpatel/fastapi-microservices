@@ -1,5 +1,7 @@
+![App Architecture](img/arch.png)
+
 ```
-To create a virtual environment on mac
+// To create a virtual environment on mac
 
 python3 -m venv venv
 // step to enable vitual environmant in vs code
@@ -10,6 +12,6 @@ source venv/bin/activate
 ```
 
 ```
-list all packages installed in virtual environment
+//list all packages installed in virtual environment
 pip freeze
 ```
