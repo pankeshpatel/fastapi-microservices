@@ -16,4 +16,32 @@ source venv/bin/activate
 ```
 //list all packages installed in virtual environment
 pip freeze
+// to install all packages
+pip install -r requirements.txt
+
+// to uninstall
+pip uninstall $(pip freeze) -y
+```
+
+#### redis on mac
+
+```
+// installation link - https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/
+brew update // redis installation
+brew install redis // redis installation
+brew uninstall redis // redis uninstllation
+brew services start redis  // to start redis service
+redis-cli ping  // to check redis is running
+brew services stop redis  // to stop service
+```
+
+```
+redis document - https://redis.io/docs/getting-started/
+
+redis-cli // commandline interface to interact with redis
+keys * // list all the keys inside the redis (key-value store)
+set usename pankeshpatel  // this would set a key-value in redis
+get usename // to reterieve value of key "username"
+get password // to ret value of key "password"
+del <key-name> // to delete key
 ```
