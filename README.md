@@ -1,6 +1,6 @@
-### to create a virtual environment on mac
-
 ```
+To create a virtual environment on mac
+
 python3 -m venv venv
 // step to enable vitual environmant in vs code
 view -> command palette -> python:select interpreter -> ./venv/bin/python
