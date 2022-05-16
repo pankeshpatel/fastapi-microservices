@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/arch.png" width="350" title="app architecture">
+  <img src="img/arch.png" width="500" title="app architecture">
 </p>
 
 ```
