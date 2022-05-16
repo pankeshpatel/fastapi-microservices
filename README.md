@@ -9,8 +9,7 @@ we also need to enable virtual environment in terminal
 source venv/bin/activate
 ```
 
-### list all packages installed in virtual environment
-
 ```
+list all packages installed in virtual environment
 pip freeze
 ```
